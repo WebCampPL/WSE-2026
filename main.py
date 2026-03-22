@@ -1,5 +1,8 @@
 from vector import Vector
 
 if __name__ == '__main__':
-    my_vector = Vector(5, 2, -3, 8)
-    print(my_vector.length())
+    vector_list = [Vector(5, 2, -3, 8),
+                   Vector(4, 1, 3, 9),
+                   Vector(-2, -2, 8, 8)]
+    for vector in vector_list:
+        print(vector.length())
